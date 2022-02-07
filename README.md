@@ -39,9 +39,8 @@ Users should be able to:
 
 ## Author
 
-- Website - (https://www.your-site.com)
 - Frontend Mentor - (https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - (https://twitter.com/Blazecodyy)
 
 ## Acknowledgments
 
