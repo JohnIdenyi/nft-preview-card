@@ -35,7 +35,7 @@ body {
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
 
-.image-container img {
+.main-image img {
     width: 100%;
     border-radius: 15px;
 }
