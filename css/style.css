@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --main-BG: hsl(217, 54%, 11%);
+    --card-BG: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--main-BG);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.nft-container {
+    background-color: var(--card-BG);
+    width: 24%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.image-container {
+    background-image: url("../images/icon-view.svg");
+    color: var(--Soft-blue);
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* card description */
+
+.description h1 {
+    font-size: 1.3em;
+    color: var(--White);
+    margin: 18px 0px 18px 0px;
+}
+
+.description p {
+    font-size: 18px;
+    color: var(--Soft-blue);
+    font-weight: 300;
+    margin: 0px 0px 22px 0px;
+}
+
+/* ethereum price */
+
+.eth-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.eth-price .price {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.eth-price .clock {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eth-price .price p {
+    margin-left: 8px;
+    color: var(--Cyan);
+}
+
+.eth-price .clock p {
+    margin-left: 8px;
+    color: var(--Soft-blue);
+}
+
+/* footer */
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid var(--dark-blue-line);
+    padding: 15px 0px;
+}
+
+.author img {
+    width: 10%;
+    border-radius: 50%;
+    background-color: var(--White);
+    padding: 1px;
+}
+
+.author p {
+    color: var(--Soft-blue);
+    margin-left: 20px;
+}
+
+.username {
+    color: var(--White);
+    text-decoration: none;
+}
+
+.username:hover {
+    color: var(--Cyan);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        min-height: 110vh;
+    }
+    .nft-container {
+        width: 85%;
+    }
+}
+
