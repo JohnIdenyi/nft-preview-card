@@ -41,6 +41,7 @@ body {
     width: 100%;
     /* max-width: 18.75rem; */
     height: auto;
+    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -150,6 +151,7 @@ body {
     .container {
         min-height: 110vh;
     }
+    
     .nft-container {
         width: 85%;
     }
