@@ -39,7 +39,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - (https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/JohnIdenyi)
 - Twitter - (https://twitter.com/Blazecodyy)
 
 ## Acknowledgments
